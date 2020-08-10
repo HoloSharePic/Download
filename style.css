@@ -16,15 +16,30 @@ nav{
     
 
 }
+.main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn{
 position: fixed;
 z-index: 10;
+width: 300px;
 bottom: 20px;
-right: 33%;
+
 opacity: 0.9;
+box-sizing: border-box;
+left:0;
+right:0;
+margin: auto;
+
 color: #c96e06;
 background: fixed;
+text-decoration: none;
+
 }
+
 .btn a{
     background-color: #c96e06;
     font-family: 'Baloo Tamma 2', cursive;
@@ -32,10 +47,16 @@ background: fixed;
     border: #ffffff 2px solid;
     text-decoration: none;
     border-radius: 40px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 
 
-    padding: 4px 20px 4px 20px;
+    padding: 4px 20vw 4px 20vw;
 
 
     
 }
+
+.btn a.nav:link    {text-decoration: none; }
+.btn a.nav:visited {text-decoration: none; }
+.btn a.nav:hover   {text-decoration: none; }
+.btn a.nav:active  {text-decoration: none; }
