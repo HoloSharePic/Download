@@ -21,8 +21,22 @@ nav{
     justify-content: center;
     align-items: center;
 }
-
 .btn{
+    margin-bottom: 2vh;
+}
+.btn2{
+    box-sizing: border-box;
+    background-color: transparent;
+
+}
+#vid_btn a{
+    background-color: #f35f5f;
+    
+}
+
+
+
+/* .btn{
 position: fixed;
 z-index: 10;
 width: 300px;
@@ -39,7 +53,33 @@ background: fixed;
 text-decoration: none;
 
 }
-
+.btn2{
+    position: fixed;
+    z-index: 10;
+    width: 300px;
+    bottom: 20vh;
+    
+    box-sizing: border-box;
+    left:0;
+    right:0;
+    margin: auto;
+    
+    color: #c96e06;
+    background: fixed;
+    text-decoration: none;
+    
+    } */
+.button_conatiner{
+    bottom: 2vh;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .btn a{
     background-color: #c96e06;
     font-family: 'Baloo Tamma 2', cursive;
@@ -55,8 +95,23 @@ text-decoration: none;
 
     
 }
+.btn2 a{
+    background-color: #f35f5f;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #ffffff;
+    border: #ffffff 2px solid;
+    text-decoration: none;
+    border-radius: 40px;
 
-.btn a.nav:link    {text-decoration: none; }
-.btn a.nav:visited {text-decoration: none; }
-.btn a.nav:hover   {text-decoration: none; }
-.btn a.nav:active  {text-decoration: none; }
+
+
+    padding: 4px 20vw 4px 20vw;
+
+
+    
+}
+
+ a.nav:link    {text-decoration: none; }
+ a.nav:visited {text-decoration: none; }
+ a.nav:hover   {text-decoration: none; }
+ a.nav:active  {text-decoration: none; }
